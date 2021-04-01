@@ -34,9 +34,8 @@ T(T)
 Iterator<T>& Iterator<T>::operator++() 
 {
     if (current != nullptr)
-    {
         current = current->getNext();  
-    } 
+     
     return *this;
 }
 
